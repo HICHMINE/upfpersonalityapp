@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upf personnalité</title>
+    <link rel="stylesheet" href="css/stayle.css">
+    <link rel="stylesheet" href="css/resultat.css">
+   
+</head>
+<body>
+  <div class="continer">
+    <div class="navbar">
+        <img src="images/upf.png" class="logo">
+        <nav>
+            <ul>
+                <li><a href="">Home</a> </li>
+                <li><a href=".row1">Testez Votre personnalité</a> </li>
+                <li><a href="">Teams</a> </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            <h1>About Projet</h1>
+            <p>Le Big Five Inventory (BFI), ou Inventaire des cinq grands facteurs de personnalité,a été publié par les psychologues John, Donahue et Kentle<br> en 19911. Le modèle des cinq grands facteurs de la personnalité ou Big Five constitue un grand classique de la recherche en psychologie. Ces facteurs ne sont pas issus d'une perspective théorique mais ont été identifiés par des analyses du langage naturel et des tests psychologiques visant à identifier les traits de personnalité qui sont indépendants les uns des autres et décrivent la personnalité de la façon la plus complète possible. Ils constituent,<br> selon le psychologue Sanjay Srivastava,  « un modèle de ce que les gens veulent savoir les uns des autres </p>
+        </div>
+       <div class="col-2">
+          <img src="images/big1.jpg" class="controller">
+       </div>
+    </div>
+    <div class="row1">
+        <div class="col-3">
+            <h1>Testez Votre personnalité</h1>
+            <p>Écrivez un texte au hasard, sur votre vie quotidienne, <br>par exemple, après cela, appuyez sur le bouton ci-dessous.</p>
+            <form id="form" method="POST">
+               <!-- <input type="text" name="language" id="language" value="" placeholder="Entrer la lengage :"/>-->
+               <select name="language" id="language" value="">
+               <option value="">Selectionner votre langue</option>
+               <option value="en">en</option>
+               <option value="fr">fr</option>
+               </select>
+                <textarea name="text" value="" id="text" placeholder="Some text..."></textarea>
+                <input type="hidden" name="Id" id="Id" value="1" />
+                <input class="button-78" id="mybtn" type="submit" value="Envoyer"/> </a> 
+                <!-- <button class="" role="button" value="Envoyer">Button 78</button> -->
+            </form>
+            <div class="resultat"></div>
+            <div class="cola">
+                <img src="images/big2.jpg" class="big2">
+             </div>
+        </div>
+
+    </div>
+    <div class="row2">
+        <div class="col-4">
+        <h1>Ce Projet est Réalisé par :</h1>
+        <div class="column">
+            <div class="card">
+                <img src="images/hichmine.jpg"  style="width:100%">
+                <h4><b>HICHMINE BADR</b></h4> 
+               <p>Future software engineer</p>
+            </div>
+          </div>
+        
+          <div class="column">
+            <div class="card">
+                <img src="images/kouzman.jpg"  style="width:100%">
+                <h4><b>KOUZMAN AMINE</b></h4> 
+               <p>Future software engineer</p>
+            </div>
+          </div>
+          
+          <div class="column">
+            <div class="card">
+                <img src="images/himdi.jpg"  style="width:100%">
+                <h4><b>HIMDI MOHAMMED</b></h4> 
+                <p>Future software engineer</p>
+            </div>
+          </div>
+        
+    <script src="js/main.js" ></script>
+    <script src="js/test.js"></script>
+</body>
+</html>

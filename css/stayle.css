@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+body{
+    background-color:#DFCFBE;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right:8%;
+    /*
+    badr chof hadi
+    */
+    box-sizing:border-box;
+    /*
+    chof hadi
+    */
+    overflow:hidden;
+}
+.navbar{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width:300px;
+    cursor:pointer;
+    margin:30px 0;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-size:30px;
+}
+nav ul li a:hover{
+    color:#2950AC;
+}
+
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position:relative;
+    margin-left:50px;
+}
+
+.col-1 h1{
+    font: size 54px;
+}
+.col-1 p {
+    font-size:15px;
+    color:#707070;
+    font-weight: 100;
+    margin:20px 0 10px;
+   
+}
+.col-1::after{
+    content: "";
+    width:10px;
+    height:70%;
+    background: linear-gradient(#2950AC,rgb(177, 27, 129));
+    position:absolute;
+    left:-40px;
+    top:70px;
+}
+.col-2{
+    position:relative;
+    flex-basis: 60%;
+    display:flex;
+    align-items:center;
+}
+
+.col-2 .controller{
+ position: absolute;
+ width:70%;
+ left:200px;
+ border-radius: 30px;
+}
+
+.row1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-top:150px;
+    text-align: center;
+   
+}
+
+.col-3{
+    flex-basis: 70%;
+    position:relative;
+    margin-left:50px;
+ 
+}
+
+.col-3 h1{
+    font-size: 20px;
+    margin-left: 300px;
+      
+}
+.col-3 p {
+    font-size:15px;
+    color:#707070;
+    font-weight: 100;
+    margin-left: 300px;
+    
+   
+}
+
+.col-3 textarea{
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:aliceblue;
+    font-size: 16px;
+    resize: none;
+    margin-left: 300px;
+    border-radius: 30px;
+}
+
+.col-3::after{
+    content: "";
+    width:10px;
+    height:70%;
+    background: linear-gradient(#2950AC,rgb(177, 27, 129));
+    position:absolute;
+    left:277px;
+    top:90px;
+}
+.button-78{
+    margin:10px;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 120px;
+    height:40px;
+    font-size: 15px;
+    margin-left: 300px;
+}
+select{
+    margin-left:300px;
+    background-color: #7b38d8;
+    width: 27%;
+    height:90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+.resultat table{
+    margin-left: 320px;
+    border-collapse: collapse;
+  
+}
+.resultat tr td{
+    border: 1px solid black;
+}
+.resultat .on{
+    background-color:rgb(177, 27, 129);
+}
+.resultat .badr{
+    background-color: #7b38d8;
+}
+
+.button-78:hover{
+   background-color:rgb(177, 27, 129);
+}
+.cola{
+    position:relative;
+    flex-basis: 60%;
+    display:flex;
+    align-items:center;
+}
+.cola .big2{
+    position: absolute;
+    width:85%;
+    left:-420px;
+    top:-320px;
+    border-radius: 30px;
+}
+
+.row2{
+  margin-left: 165px;
+  margin-top: 100px;
+}
+.row2 h1{
+ font-size: 40px;
+ margin-bottom: 20px;
+
+}
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+ 
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+  }
+  
+  .col-4{
+    flex-basis: 60%;
+    position:relative;
+    margin-left:50px;
+ 
+}
+
+.col-4::after{
+    content: "";
+    width:10px;
+    height:400%;
+    background: linear-gradient(#2950AC,rgb(177, 27, 129));
+    position:absolute;
+    left:-40px;
+    top:90px;
+}
+
